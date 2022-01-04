@@ -4,6 +4,7 @@ An API that provides replies to the message passed to the API.
 # API Schema
 Route: ```/api/chatbot/query/``` \
 Method: ```POST``` \
+Headers: ```Content-Type: application/json```  
 Input: ```message``` Input is taken in form of JSON object. \
 Output: ```solutions``` Output provided as JSON object.
 Status Code: ```200```
